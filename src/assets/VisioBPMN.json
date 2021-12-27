@@ -1,0 +1,710 @@
+{
+  "cells": [
+    {
+      "type": "bpmn.Event",
+      "size": {
+        "width": 60,
+        "height": 60
+      },
+      "eventType": "start",
+      "position": {
+        "x": 100,
+        "y": 257
+      },
+      "angle": 0,
+      "id": "69dc1202-3ad0-40af-90d8-a4245c7f77fa",
+      "z": 1,
+      "attrs": {
+        ".body": {
+          "fill": "lightgreen",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "image": {
+          "dataIconType": "none"
+        },
+        ".label": {
+          "text": "Event",
+          "fill": "black"
+        }
+      }
+    },
+    {
+      "size": {
+        "width": 100,
+        "height": 100
+      },
+      "type": "bpmn.Activity",
+      "activityType": "task",
+      "subProcess": null,
+      "content": "Get Mate",
+      "position": {
+        "x": 220,
+        "y": 250
+      },
+      "angle": 0,
+      "id": "daf580e6-9451-4f7d-a4da-6d76acac16b5",
+      "z": 2,
+      "attrs": {
+        ".body": {
+          "fill": "white",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "path": {
+          "ref": ".outer"
+        },
+        "image": {
+          "ref": ".outer",
+          "ref-dy": "",
+          "ref-y": 5,
+          "xlink:href": "",
+          "dataIconType": "none"
+        },
+        ".content": {
+          "html": "Get Mate"
+        },
+        ".label": {
+          "text": "Get Mate"
+        },
+        ".fobj": {
+          "width": 100,
+          "height": 100
+        },
+        "div": {
+          "style": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        ".fobj div": {
+          "style": {
+            "verticalAlign": "middle",
+            "paddingTop": 0
+          }
+        },
+        ".outer": {
+          "stroke-width": 1,
+          "stroke-dasharray": "none"
+        },
+        ".sub-process": {
+          "visibility": "hidden",
+          "data-sub-process": ""
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "69dc1202-3ad0-40af-90d8-a4245c7f77fa"
+      },
+      "target": {
+        "id": "daf580e6-9451-4f7d-a4da-6d76acac16b5"
+      },
+      "id": "1365e4a3-8db6-445f-87e4-56f3fc6ff621",
+      "z": 3,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "size": {
+        "width": 100,
+        "height": 100
+      },
+      "type": "bpmn.Activity",
+      "activityType": "task",
+      "subProcess": null,
+      "content": "See What classmate are doing",
+      "position": {
+        "x": 400,
+        "y": 250
+      },
+      "angle": 0,
+      "icon": "myIcon",
+      "id": "45af92fd-24dd-474b-b583-720ef8f5e800",
+      "z": 4,
+      "attrs": {
+        ".body": {
+          "fill": "white",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "path": {
+          "ref": ".outer"
+        },
+        "image": {
+          "ref": ".outer",
+          "ref-dy": "",
+          "ref-y": 5,
+          "xlink:href": "../assets/script.svg",
+          "dataIconType": "myIcon"
+        },
+        ".content": {
+          "html": "See What classmate are doing"
+        },
+        ".label": {
+          "text": "See What classmate are doing"
+        },
+        ".fobj": {
+          "width": 100,
+          "height": 100
+        },
+        "div": {
+          "style": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        ".fobj div": {
+          "style": {
+            "verticalAlign": "middle",
+            "paddingTop": 0
+          }
+        },
+        ".outer": {
+          "stroke-width": 1,
+          "stroke-dasharray": "none"
+        },
+        ".sub-process": {
+          "visibility": "hidden",
+          "data-sub-process": ""
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "daf580e6-9451-4f7d-a4da-6d76acac16b5"
+      },
+      "target": {
+        "id": "45af92fd-24dd-474b-b583-720ef8f5e800"
+      },
+      "id": "863e3eb3-6286-4321-b689-d994d75ed4c8",
+      "z": 5,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "type": "standard.Polygon",
+      "position": {
+        "x": 550,
+        "y": 260
+      },
+      "size": {
+        "width": 80,
+        "height": 70
+      },
+      "angle": 0,
+      "id": "746dd7fe-85f3-4cdd-a715-eea6adfd4775",
+      "z": 6,
+      "attrs": {
+        "body": {
+          "refPoints": "0,10 10,0 20,10 10,20",
+          "fill": "orange"
+        },
+        "label": {
+          "fill": "white",
+          "text": "flaxible?"
+        },
+        "root": {
+          "title": "joint.shapes.standard.Polygon"
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "45af92fd-24dd-474b-b583-720ef8f5e800"
+      },
+      "target": {
+        "id": "746dd7fe-85f3-4cdd-a715-eea6adfd4775"
+      },
+      "id": "10b1110b-2086-40c7-99b7-6529fb5e576e",
+      "z": 7,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "size": {
+        "width": 100,
+        "height": 100
+      },
+      "type": "bpmn.Activity",
+      "activityType": "task",
+      "subProcess": null,
+      "content": "Become a Human pretzle",
+      "position": {
+        "x": 700,
+        "y": 130
+      },
+      "angle": 0,
+      "icon": "myIcon",
+      "id": "0b1fcfcb-bcf9-483a-a2dd-942e054898b7",
+      "z": 8,
+      "attrs": {
+        ".body": {
+          "fill": "white",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "path": {
+          "ref": ".outer"
+        },
+        "image": {
+          "ref": ".outer",
+          "ref-dy": "",
+          "ref-y": 5,
+          "xlink:href": "../assets/script.svg",
+          "dataIconType": "myIcon"
+        },
+        ".content": {
+          "html": "Become a Human pretzle"
+        },
+        ".label": {
+          "text": "Become a Human pretzle"
+        },
+        ".fobj": {
+          "width": 100,
+          "height": 100
+        },
+        "div": {
+          "style": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        ".fobj div": {
+          "style": {
+            "verticalAlign": "middle",
+            "paddingTop": 0
+          }
+        },
+        ".outer": {
+          "stroke-width": 1,
+          "stroke-dasharray": "none"
+        },
+        ".sub-process": {
+          "visibility": "hidden",
+          "data-sub-process": ""
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "746dd7fe-85f3-4cdd-a715-eea6adfd4775"
+      },
+      "target": {
+        "id": "0b1fcfcb-bcf9-483a-a2dd-942e054898b7"
+      },
+      "id": "4e131cbd-5b95-4f7f-b7e3-3e0e14e00231",
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "Yes",
+              "fontSize": "15px"
+            },
+            "rect": {
+              "fill": "#ffffff"
+            }
+          }
+        }
+      ],
+      "z": 9,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "size": {
+        "width": 100,
+        "height": 100
+      },
+      "type": "bpmn.Activity",
+      "activityType": "task",
+      "subProcess": null,
+      "content": "Stick with fetal position",
+      "position": {
+        "x": 700,
+        "y": 320
+      },
+      "angle": 0,
+      "icon": "myIcon",
+      "id": "384d83c4-3d53-4bb4-834f-efcc38414538",
+      "z": 10,
+      "attrs": {
+        ".body": {
+          "fill": "white",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "path": {
+          "ref": ".outer"
+        },
+        "image": {
+          "ref": ".outer",
+          "ref-dy": "",
+          "ref-y": 5,
+          "xlink:href": "../assets/script.svg",
+          "dataIconType": "myIcon"
+        },
+        ".content": {
+          "html": "Stick with fetal position"
+        },
+        ".label": {
+          "text": "Stick with fetal position"
+        },
+        ".fobj": {
+          "width": 100,
+          "height": 100
+        },
+        "div": {
+          "style": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        ".fobj div": {
+          "style": {
+            "verticalAlign": "middle",
+            "paddingTop": 0
+          }
+        },
+        ".outer": {
+          "stroke-width": 1,
+          "stroke-dasharray": "none"
+        },
+        ".sub-process": {
+          "visibility": "hidden",
+          "data-sub-process": ""
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "746dd7fe-85f3-4cdd-a715-eea6adfd4775"
+      },
+      "target": {
+        "id": "384d83c4-3d53-4bb4-834f-efcc38414538"
+      },
+      "id": "3b2e41e4-c054-4bbc-b92e-37de889ea9fc",
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "No",
+              "fontSize": "15px"
+            },
+            "rect": {
+              "fill": "#ffffff"
+            }
+          }
+        }
+      ],
+      "z": 11,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "type": "standard.Polygon",
+      "position": {
+        "x": 880,
+        "y": 260
+      },
+      "size": {
+        "width": 80,
+        "height": 70
+      },
+      "angle": 0,
+      "id": "3f51d32b-e9fb-4c78-8e0b-3da2cb8127c7",
+      "z": 12,
+      "attrs": {
+        "body": {
+          "refPoints": "0,10 10,0 20,10 10,20",
+          "fill": "orange"
+        },
+        "label": {
+          "fill": "black",
+          "text": ""
+        },
+        "root": {
+          "title": "joint.shapes.standard.Polygon"
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "0b1fcfcb-bcf9-483a-a2dd-942e054898b7"
+      },
+      "target": {
+        "id": "3f51d32b-e9fb-4c78-8e0b-3da2cb8127c7"
+      },
+      "id": "fb2ce1ba-df4e-434f-aa19-56e9edb955df",
+      "z": 13,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "384d83c4-3d53-4bb4-834f-efcc38414538"
+      },
+      "target": {
+        "id": "3f51d32b-e9fb-4c78-8e0b-3da2cb8127c7"
+      },
+      "id": "e3ab1d76-3ec1-4067-aae4-b1c701142650",
+      "z": 14,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "size": {
+        "width": 100,
+        "height": 100
+      },
+      "type": "bpmn.Activity",
+      "activityType": "task",
+      "subProcess": null,
+      "content": "Take a nape",
+      "position": {
+        "x": 1050,
+        "y": 250
+      },
+      "angle": 0,
+      "icon": "myIcon",
+      "id": "74b83b78-dd9c-4c73-9714-ebe93f886a81",
+      "z": 15,
+      "attrs": {
+        ".body": {
+          "fill": "white",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "path": {
+          "ref": ".outer"
+        },
+        "image": {
+          "ref": ".outer",
+          "ref-dy": "",
+          "ref-y": 5,
+          "xlink:href": "../assets/script.svg",
+          "dataIconType": "myIcon"
+        },
+        ".content": {
+          "html": "Take a nape"
+        },
+        ".label": {
+          "text": "Take a nape"
+        },
+        ".fobj": {
+          "width": 100,
+          "height": 100
+        },
+        "div": {
+          "style": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        ".fobj div": {
+          "style": {
+            "verticalAlign": "middle",
+            "paddingTop": 0
+          }
+        },
+        ".outer": {
+          "stroke-width": 1,
+          "stroke-dasharray": "none"
+        },
+        ".sub-process": {
+          "visibility": "hidden",
+          "data-sub-process": ""
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "3f51d32b-e9fb-4c78-8e0b-3da2cb8127c7"
+      },
+      "target": {
+        "id": "74b83b78-dd9c-4c73-9714-ebe93f886a81"
+      },
+      "id": "a25c0a28-3e16-4bac-ac25-71743b088a22",
+      "z": 16,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "size": {
+        "width": 100,
+        "height": 100
+      },
+      "type": "bpmn.Activity",
+      "activityType": "task",
+      "subProcess": null,
+      "content": "Say \"Hello\"",
+      "position": {
+        "x": 1250,
+        "y": 250
+      },
+      "angle": 0,
+      "icon": "myIcon",
+      "id": "e8f64c71-6fb5-4f68-b3df-f5bcbb1fa1e6",
+      "z": 17,
+      "attrs": {
+        ".body": {
+          "fill": "white",
+          "stroke": "black"
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "path": {
+          "ref": ".outer"
+        },
+        "image": {
+          "ref": ".outer",
+          "ref-dy": "",
+          "ref-y": 5,
+          "xlink:href": "../assets/script.svg",
+          "dataIconType": "myIcon"
+        },
+        ".content": {
+          "html": "Say \"Hello\""
+        },
+        ".label": {
+          "text": "Say \"Hello\""
+        },
+        ".fobj": {
+          "width": 100,
+          "height": 100
+        },
+        "div": {
+          "style": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        ".fobj div": {
+          "style": {
+            "verticalAlign": "middle",
+            "paddingTop": 0
+          }
+        },
+        ".outer": {
+          "stroke-width": 1,
+          "stroke-dasharray": "none"
+        },
+        ".sub-process": {
+          "visibility": "hidden",
+          "data-sub-process": ""
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "74b83b78-dd9c-4c73-9714-ebe93f886a81"
+      },
+      "target": {
+        "id": "e8f64c71-6fb5-4f68-b3df-f5bcbb1fa1e6"
+      },
+      "id": "6bff9755-6c06-48f0-9b8c-f3d5b360c7fd",
+      "z": 18,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Event",
+      "size": {
+        "width": 60,
+        "height": 60
+      },
+      "eventType": "end",
+      "position": {
+        "x": 1450,
+        "y": 255
+      },
+      "angle": 0,
+      "id": "aa0aca21-257d-44cb-bd94-d0e0e70d8c24",
+      "z": 19,
+      "attrs": {
+        ".body": {
+          "fill": "Red",
+          "stroke": "black"
+        },
+        ".outer": {
+          "stroke-width": 5
+        },
+        ".inner": {
+          "visibility": "hidden"
+        },
+        "image": {
+          "dataIconType": "none"
+        },
+        ".label": {
+          "text": "Event",
+          "fill": "black"
+        }
+      }
+    },
+    {
+      "type": "standard.Link",
+      "source": {
+        "id": "e8f64c71-6fb5-4f68-b3df-f5bcbb1fa1e6"
+      },
+      "target": {
+        "id": "aa0aca21-257d-44cb-bd94-d0e0e70d8c24"
+      },
+      "id": "5fa2fbaa-0e03-4c9d-ae57-09e2fb10b8bf",
+      "z": 20,
+      "attrs": {
+        "line": {
+          "stroke": "gray"
+        }
+      }
+    }
+  ]
+}
